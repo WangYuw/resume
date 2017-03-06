@@ -14,13 +14,22 @@ body,html{
 .mynavbar .navbar-brand {
 	font-weight: 600;
 }
+.mynavbar .nom{
+	width:150px;
+}
 .mynavbar .navbar-brand:focus {
 	outline: 0;
 }
 .mynavbar .navbar-brand .navbar-toggle {
 	padding: 4px 6px;
+
 	font-size: 16px;
 	color: #fff;
+}
+.mynavbar .navbar-header .lan{
+	display: inline-block;
+	padding-top: 6px;
+    margin-bottom: -6px;
 }
 .mynavbar .navbar-toggle .icon-bar {
 	background-color: #fff;
