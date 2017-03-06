@@ -1,0 +1,60 @@
+body,html{
+	font-family: 'Open Sans', sans-serif;
+}
+/* nav*/
+#nav {
+	z-index: 9999;
+}
+.mynavbar {
+	margin-bottom: 0;
+	background-color: #193c61;
+	border-radius: 0px;
+	padding: 6px 0;
+}
+.mynavbar .navbar-brand {
+	font-weight: 600;
+}
+.mynavbar .navbar-brand:focus {
+	outline: 0;
+}
+.mynavbar .navbar-brand .navbar-toggle {
+	padding: 4px 6px;
+	font-size: 16px;
+	color: #fff;
+}
+.mynavbar .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.mynavbar .navbar-brand .navbar-toggle:focus, .mynavbar .navbar-brand .navbar-toggle:active {
+	outline: 0;
+}
+.mynavbar a {
+	color: #f4f5f6;
+}
+.mynavbar .nav li a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.mynavbar .nav li a:hover {
+	outline: 0;
+	color: #E87E04;
+	background-color: transparent;
+}
+.mynavbar .nav li a:focus, .navbar-custom .nav li a:active {
+	outline: 0;
+	background-color: transparent;
+	color: #E87E04;
+}
+.mynavbar .nav li.active {
+	outline: 0;
+}
+.mynavbar .nav li.active a {
+	background-color: rgba(255,255,255,.3);
+}
+.mynavbar .nav li.active a:hover {
+	color: #fff;
+}
+/*fin nav*/
