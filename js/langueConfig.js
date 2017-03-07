@@ -7,4 +7,6 @@ var langues={
 	"hobbies":["Intérêts","Hobbies","兴趣爱好"],
 	"nom":["WANG Yuwei","WANG Yuwei","王 雨 薇"],
 	"nom2":["WANG Yuwei","WANG Yuwei","王 雨 薇"],
+	"about2":["à propos","about","个人信息"],
+	"download":["Télécharger CV","Download Resume","下载简历"]
 }

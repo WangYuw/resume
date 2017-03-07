@@ -1,13 +1,37 @@
 body,html{
 	font-family: 'Open Sans', sans-serif;
 }
+a {
+    color: #fff;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+a:link,a:visited {
+	text-decoration:none;
+	color: #fff
+}
+a:hover, a.focus, a.active {
+	outline: 0;
+	color: #E87E04;
+	background-color: transparent;
+}
+p{
+	line-height: 28px;
+    margin-bottom: 25px;
+}
+
 /* nav*/
 #nav {
 	z-index: 9999;
 }
 .mynavbar {
 	margin-bottom: 0;
-	background-color: #193c61;
+	background-color: #000;
 	border-radius: 0px;
 	padding: 6px 0;
 }
@@ -37,9 +61,6 @@ body,html{
 .mynavbar .navbar-brand .navbar-toggle:focus, .mynavbar .navbar-brand .navbar-toggle:active {
 	outline: 0;
 }
-.mynavbar a {
-	color: #f4f5f6;
-}
 .mynavbar .nav li a {
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -52,7 +73,7 @@ body,html{
 	color: #E87E04;
 	background-color: transparent;
 }
-.mynavbar .nav li a:focus, .navbar-custom .nav li a:active {
+.mynavbar .nav li a:focus, .mynabvar .nav li a:active {
 	outline: 0;
 	background-color: transparent;
 	color: #E87E04;
@@ -76,7 +97,7 @@ body,html{
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 520px;
+	min-height: 529px;
 	width: 100%;
 }
 .myheader h1{
@@ -90,3 +111,38 @@ body,html{
 	color: #fff;
 }
 /* fin header */
+
+/* about */
+.myintro{
+	background: #301b14;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.myintro h4{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "Raleway",sans-serif;
+	text-align: left;
+}
+.myintro p sm{
+	font-family: "Raleway",sans-serif;
+}
+.myintro p{
+	color: #fff;
+}
+.myintro span{
+	color: #fff
+	vertical-align:middle;
+}
+.myintro img{
+	height: 200px;
+	width: 200px;
+	opacity:0.5;
+  	filter:alpha(opacity=50); /* IE8 及其更早版本 */
+}
+img:hover
+{
+  opacity:1.0;
+  filter:alpha(opacity=100); /* IE8 及其更早版本 */
+}
+/* fin about */
