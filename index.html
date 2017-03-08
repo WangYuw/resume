@@ -24,7 +24,7 @@
   	</head>
 
 	<body data-spy="scroll" data-target="#navbar">
-
+		<section id="top"></section>
 		<!-- nabvar -->
 		<div class="nav">
 			<nav class="navbar mynavbar navbar-fixed-top">
@@ -35,7 +35,7 @@
 							<span class="icon icon-bar"></span>
 							<span class="icon icon-bar"></span>
 						</button>
-						<a href="#" class="navbar-brand nom">Yuwei WANG</a>
+						<a href="#top" class="navbar-brand nom smoothScroll">Yuwei WANG</a>
 						<div class="lan">
 							<a class="navbar-brand" href="#" data-langue="0">
 	        					<img  alt="Brand" data-langue="0" src="img/fr.png">
@@ -51,12 +51,12 @@
 					</div>
 					<div class="collapse navbar-right navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="#about" class="about">à propos</a></li>
-						<li><a href="#formation" class="education">Formation</a></li>
-						<li><a href="#experiences" class="experiences">Expériences</a></li>
-						<li><a href="#competences" class="skills">Compétences</a></li>
-						<li><a href="#activites" class="activities">Activités</a></li>
-						<li><a href="#interets" class="hobbies">Intérêts</a></li>
+						<li><a href="#about" class="about smoothScroll">à propos</a></li>
+						<li><a href="#formation" class="education smoothScroll">Formation</a></li>
+						<li><a href="#experiences" class="experiences smoothScroll">Expériences</a></li>
+						<li><a href="#competences" class="skills smoothScroll">Compétences</a></li>
+						<li><a href="#activites" class="activities smoothScroll">Activités</a></li>
+						<li><a href="#interets" class="hobbies smoothScroll">Intérêts</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -73,7 +73,7 @@
 		</div>
 
 		<!-- about -->
-		<div class="myintro">
+		<div class="myintro" id="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-2 col-lg-offset-1">
@@ -94,7 +94,7 @@
 									</td>
 									<td>
 										<i class="fa fa-flag fa-fw"></i>
-										Chinoise	
+										<span class="nation">Chinoise</span>	
 									</td>
 								</tr>
 							</table>
@@ -117,12 +117,66 @@
 						</p>
 						<p>
 							<i class="fa fa-tags fa-fw"></i>
-							Motivée, Responsable, Rigoureuse, Souriant, Dynamique, mais Timide
+							<span class="personalite">Motivée, Responsable, Rigoureuse, Souriant, Dynamique, mais Timide</span>
 						</p>
 					</div>
 					<div class="col-lg-3">
 						<img src="img/myphoto.jpg" class="img-circle img-responsive" alt="My Photo">
 					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Education -->
+		<div class="myEdu" id="formation">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h4 class="education2">Formation</h4>
+					</div>
+
+					<div class="col-lg-9">
+						<ul class="timeline">
+							<li>
+								<div class="timeline-circle">
+									<h5> 2015 <br>
+                 					 - <br>
+									2018 </h5>
+								</div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="school1">Télécom SudParis</h4>
+										<h5 class="subheading diplome1">Étudiante Ingénieure : Évry, France</h5>
+									</div>
+									<div class="timeline-body">
+										<p class="specialite1">Spécialité : « Intégration et Déploiement de Systèmes d’Information »</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="timeline-circle">
+									<h5>2012 <br>
+									 - <br>
+									2016 </h5>
+								</div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="school2">Université XIDIAN</h4>
+										<h5 class="subheading diplome2">Licence en Ingénierie : Xi’an, Chine</h5>
+									</div>
+									<div class="timeline-body">
+										<p class="specialite2">Spécialité : « Génie Logiciel »</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+
+
+
+
+
 				</div>
 			</div>
 		</div>
@@ -134,6 +188,7 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/langueConfig.js"></script>
 		<script src="js/myjs.js"></script>
+		<script type="text/javascript" src="js/smoothscroll.js"></script>
 
 	</body>
 </html>

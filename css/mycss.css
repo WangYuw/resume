@@ -156,3 +156,83 @@ img:hover
   filter:alpha(opacity=100); /* IE8 及其更早版本 */
 }
 /* fin about */
+
+/* formation */
+.myEdu{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.myEdu h4{
+	text-transform: uppercase;
+	color: #301b14;
+	font-family: "Raleway",sans-serif;
+	text-align: left;
+}
+
+/* -----------timeline----------------*/
+.timeline {
+	position: relative;
+	padding: 0;
+	list-style: none; /* ul 没有前面标记符 */
+}
+.timeline:before { /* line */
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 40px;
+	width: 1.5px;
+	margin-left: 0px;
+	background-color: #E87E04;
+}
+.timeline li { /* Element */
+	position: relative;
+	margin-bottom: 50px;
+	min-height: 50px;
+}
+.timeline li:before, .timeline li:after {
+	content: "";
+	display: table;
+}
+.timeline li:after {
+	clear: both; /* 清除浮动 */
+}
+.timeline li .timeline-panel { /* head+surhead+text */
+	float: right;
+	position: relative;
+	width: 100%;
+	padding: 0 20px 0 100px;
+	text-align: left;
+}
+.timeline li .timeline-circle { /* circle */
+	z-index: 100;
+	position: absolute;
+	left: 0;
+	width: 80px;
+	height: 80px;
+	margin-left: 0;
+	border: 2px solid #E87E04;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: center;
+	background: #301b14;
+}
+.timeline li .timeline-circle h5 { /* text in the circle */
+	margin-top: 16.5px;
+	margin-left: 3.5px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff
+}
+.timeline .timeline-heading h4 {
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.timeline .timeline-heading h5.subheading {
+	text-transform: none;
+	color: #E87E04;
+}
+.timeline .timeline-body p, .timeline .timeline-body ul {
+	margin-bottom: 0;
+}
+/* fin de formation*/
