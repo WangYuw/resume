@@ -1,5 +1,6 @@
 body,html{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', "Hiragino Sans GB", "Microsoft YaHei",
+             "WenQuanYi Micro Hei",sans-serif;
 }
 a {
     color: #fff;
@@ -129,10 +130,19 @@ p{
 }
 .myintro p{
 	color: #fff;
+	margin-bottom: 12px;
 }
-.myintro span{
+.myintro table{
+	width: 80%;
+	text-align:left;
+}
+.myintro td{
+	color: #fff;
+}
+.myintro i{
 	color: #fff
 	vertical-align:middle;
+	padding-right: 5px;
 }
 .myintro img{
 	height: 200px;
