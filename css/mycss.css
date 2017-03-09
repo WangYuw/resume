@@ -272,8 +272,12 @@ img:hover
 .myExper ul{
 	margin-left: 0px;
 	margin-top: -5px;
-	line-height: 28px;
 	list-style-type: none;
+}
+.myExper i{
+	color: #301b14;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 .myExper a{
 	color: #301b14;
