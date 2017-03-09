@@ -22,4 +22,5 @@ var langues={
 	"school2":["Université XIDIAN","XIDIAN University","西安电子科技大学"],
 	"diplome2":["Licence en Ingénierie : Xi'an, Chine","Bachelor's Degree in Engineering : Xi'an, China","本科： 中国，西安"],
 	"specialite2":["Spécialité : « Génie Logiciel »", "Specialty: \"Software engineering\"","专业: 软件工程 ( 专业排名 前%5，获得国家奖学金1次，校级一等奖学金3次 )"],
+	"experiences2":["Expériences","Experiences","项目经历"],
 }
