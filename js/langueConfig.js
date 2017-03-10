@@ -36,7 +36,7 @@ var langues={
 	"ex1-li1":["Comparer et trouver la meilleure solution <strong>d’emailing en masse</strong>",
 				"Compare and find the best solution of<strong>mass emailing</strong>",
 				"寻求<strong>邮件推广</strong>的解决方案，分析及比较电子<strong>邮件订阅</strong>RSS工具"],
-	"ex1-li2":["Désigner des templates des emails à envoyer", "Design emails' templates", "设计要批量发送给客户的邮件模板"],
+	"ex1-li2":["Désigner des templates d'emails à envoyer", "Design emails' templates", "设计要批量发送给客户的邮件模板"],
 	"ex1-li3":["Déployer le site-web sur <strong>WordPress</strong>", "Deploy the website on <strong>WordPress</strong>",
 				"通过<strong>WordPress</strong>上搭建公司网站"],
 	"ex1-li4":["Développer le <strong>front-end</strong> pages en utilisant <strong>Bootstrap</strong>",
@@ -57,7 +57,7 @@ var langues={
 	"ex2-li2":["Construire un <strong>atelier pédagogique</strong> aux médiathèque à Évry pour enseigner aux enfants à programmer sur <strong>« Scratch »</strong>", 
 				"Build a <strong> educational workshop </ strong> at the media library in Évry to teach children to program on <strong>\"Scratch\"</ strong>", 
 				"筹划组织小学生编程工坊，安排教学任务，编写教学大纲，与公司实时沟通，与当地图书馆报告厅沟通以获取场地的使用权"],
-	"ex2-li3":["Déployer notre site-web sur <strong>WordPress</strong>", "Deploy the website of our team and activities on <strong>WordPress</strong>",
+	"ex2-li3":["Déployer notre site web sur <strong>WordPress</strong>", "Deploy the website of our team and activities on <strong>WordPress</strong>",
 				"通过<strong>WordPress</strong>上搭建组织活动网站"],
 	"ex2-site":["Site-Web: ","Website: ","网站： "],
 
@@ -105,4 +105,11 @@ var langues={
 	"engli":["Anglais (B2)", "English (B2)", "英语 (CET 4&6)"],
 	"chines":["Chinois (Langue Maternelle)", "Chinese (Mother tongue)", "中文 (母语)"],
 	
+	"activities2":["Activités","Activities","社会活动经历"],	
+	"benev1":["Bénévole de la Fête du Nouvel an chinois 2017","Volunteer of 2017 Chinese New Year","中国新年特别系列活动 志愿者"],
+	"lieu1":["Mairie 13e arrondissement de Paris (France)", "Government of 13th arrondissement of Paris (France)", "法国13区政府"],
+	"benev2":["Chef de l'équipe bénévole \"Schtroumpfs\"", "Leader of the Volunteer Team \"Smurfs\"","蓝精灵志愿者服务队 队长"],
+	"lieu2":["Université XIDIAN (Xi'an, Chine)","XIDIAN University (Xi'an, China)","西安电子科技大学 (中国，西安)"],
+
+	"hobbies2":["Intérêts","Hobbies","兴趣爱好"],
 }

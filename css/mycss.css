@@ -335,3 +335,45 @@ img:hover
 	color: #fff;
 }
 /* fin de compétence */
+
+
+/* Activités */
+.myAct{
+	padding-top: 60px;
+}
+.myAct h4{
+	text-transform: uppercase;
+	color: #301b14;
+	font-family: "Raleway",sans-serif;
+	text-align: left;
+}
+.myAct hr{
+	margin: 60px 0;
+}
+.myAct .heading{
+	color: #301b14;
+	text-transform: none;
+	font-family: "Verdana";
+	line-height: 24px;
+}
+.myAct .subheading{
+	color: #E87E04;
+	margin-left: 30px;
+}
+.myAct .date{
+	color: #301b14;
+	margin-top: 10px;
+}
+/* fin de Activités*/
+
+/* Intérêts */
+.myIntret{
+	padding-bottom: 60px;
+}
+.myIntret h4{
+	text-transform: uppercase;
+	color: #301b14;
+	font-family: "Raleway",sans-serif;
+	text-align: left;
+}
+/* fin de intérêts */
