@@ -9,7 +9,9 @@ var langues={
 	"nom2":["WANG Yuwei","WANG Yuwei","王 雨 薇"],
 
 	"about2":["à propos","about","个人信息"],
-	"download":["Télécharger CV","Download Resume","下载简历"],
+	"download":["<a href=\"CV Version Française/CV Yuwei_WANG.pdf\" target=\"_blank\"><i class=\"fa fa-file-pdf-o\"></i>Télécharger CV</a>",
+		"<a href=\"CV Version Française/CV Yuwei_WANG.pdf\" target=\"_blank\"><i class=\"fa fa-file-pdf-o\"></i>Download Resume</a>",
+		"<a href=\"个人简历中文版/王雨薇-个人简历.pdf\" target=\"_blank\"><i class=\"fa fa-file-pdf-o\"></i>下载简历</a>"],
 	"nation":["Chinoise","Chinese","中国"],
 	"personalite":["Motivée, Responsable, Rigoureuse, Souriant, Dynamique, mais Timide",
 				"Professional, Conscientious, Responsible, Optimistic, Enthusiasm, but Nervous",
