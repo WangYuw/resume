@@ -291,5 +291,11 @@ img:hover
 	color: #E87E04;
 	background-color: transparent;
 }
-
+.myExper li{
+	display: table;
+	line-height: 28px;
+}
+.myExper .distablecell{
+	display: table-cell;
+}
 /* fin de experience*/
