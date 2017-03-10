@@ -21,6 +21,9 @@ a:hover, a.focus, a.active {
 	color: #E87E04;
 	background-color: transparent;
 }
+.centered{
+	text-align: center;
+}
 p{
 	line-height: 28px;
     margin-bottom: 25px;
@@ -299,3 +302,36 @@ img:hover
 	display: table-cell;
 }
 /* fin de experience*/
+
+/* Comépences */
+.myComp{
+	background: #301b14;
+	padding-top: 60px;
+}
+.myComp h4{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "Raleway",sans-serif;
+	text-align: left;
+}
+.myComp p{
+	color: #fff;
+}
+.myComp hr{
+	border-color: #E87E04;
+	margin: 60px 0;
+}
+.myLang{
+	background: #301b14;
+	padding-bottom: 60px;
+}
+.myLang h4{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "Raleway",sans-serif;
+	text-align: left;
+}
+.myLang p{
+	color: #fff;
+}
+/* fin de compétence */

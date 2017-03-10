@@ -99,5 +99,10 @@ var langues={
 				"Realize a site with functions: log in, write a blog, make comments, etc. by using <strong> Symfony and Bootstrap </strong>",
 				"用<strong>Symfony</strong>搭建网站基本模型，实现发布博客，用户评论，登录验证等基本功能，通过<strong>Git</strong>进行版本管理"],
 
+	"skills2":["Compétences","Skills","个人技能"],
+	"langs":["Langue","Language","语言"],
+	"fran":["Français (B1)", "French (B1)", "法语 (B1)"],
+	"engli":["Anglais (B2)", "English (B2)", "英语 (CET 4&6)"],
+	"chines":["Chinois (Langue Maternelle)", "Chinese (Mother tongue)", "中文 (母语)"],
 	
 }
