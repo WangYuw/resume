@@ -377,3 +377,14 @@ img:hover
 	text-align: left;
 }
 /* fin de intérêts */
+.footer{
+	background: #301b14;
+	text-align: right;
+}
+.footer p{
+	color: #fff;
+	margin: 20px;
+}
+.footer .author{
+	color: #E87E04;
+}
