@@ -376,6 +376,9 @@ img:hover
 	font-family: "Raleway",sans-serif;
 	text-align: left;
 }
+.myIntret td{
+	padding-right: 40px;
+}
 /* fin de intérêts */
 .footer{
 	background: #301b14;
