@@ -104,9 +104,10 @@ hr {
 /* header */
 .myheader{
 	background: url(../img/my_bg1.jpg)  no-repeat center top;
-	background-size: 100% 100%
+
 	margin-top: 60px;
 	padding-top: 150px;
+	background-size: 100% 100%
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
