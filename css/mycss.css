@@ -38,7 +38,7 @@ hr {
 }
 
 /* nav*/
-#nav {
+.nav {
 	z-index: 9999;
 }
 .mynavbar {
@@ -104,6 +104,7 @@ hr {
 /* header */
 .myheader{
 	background: url(../img/my_bg1.jpg)  no-repeat center top;
+	background-size: 100% 100%
 	margin-top: 60px;
 	padding-top: 150px;
 	text-align: center;
