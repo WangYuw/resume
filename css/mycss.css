@@ -102,12 +102,12 @@ hr {
 /*fin nav*/
 
 /* header */
-.myheader{
+header{
 	background: url(../img/my_bg1.jpg)  no-repeat center top;
 
 	margin-top: 60px;
 	padding-top: 150px;
-	
+
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
@@ -382,7 +382,7 @@ img:hover
 	padding-right: 40px;
 }
 /* fin de intérêts */
-.footer{
+footer{
 	background: #301b14;
 	text-align: right;
 }
