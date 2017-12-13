@@ -7,6 +7,7 @@ var langues={
 	"hobbies":["Intérêts","Hobbies","兴趣爱好"],
 	"nom":["WANG Yuwei","WANG Yuwei","王 雨 薇"],
 	"nom2":["WANG Yuwei","WANG Yuwei","王 雨 薇"],
+	"version":["Version français (changer la version en haut à gauche)","English Version (change the version top-left)","中文版 (左上角可切换语言版本)"],
 
 	"about2":["à propos","about","个人信息"],
 	"download":["<a href=\"CV Version Française/CV Yuwei_WANG.pdf\" target=\"_blank\"><i class=\"fa fa-file-pdf-o\"></i>Télécharger CV</a>",
@@ -112,4 +113,5 @@ var langues={
 	"lieu2":["Université XIDIAN (Xi'an, Chine)","XIDIAN University (Xi'an, China)","西安电子科技大学 (中国，西安)"],
 
 	"hobbies2":["Intérêts","Hobbies","兴趣爱好"],
+
 }

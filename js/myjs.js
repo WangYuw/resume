@@ -15,16 +15,16 @@ var data=[{value:50, color:"#E87E04"},{value:50, color:"#FFFFFF"},];
 var myChart=new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(data);
 
 var data=[{value:40, color:"#E87E04"},{value:60, color:"#FFFFFF"},];
-var myChart=new Chart(document.getElementById("php").getContext("2d")).Doughnut(data);
+var myChart=new Chart(document.getElementById("jquery").getContext("2d")).Doughnut(data);
 
-var data=[{value:60, color:"#E87E04"},{value:40, color:"#FFFFFF"},];
-var myChart=new Chart(document.getElementById("python").getContext("2d")).Doughnut(data);
+var data=[{value:60, color:"#E87E04"},{value:50, color:"#FFFFFF"},];
+var myChart=new Chart(document.getElementById("javaee").getContext("2d")).Doughnut(data);
 
 var data=[{value:70, color:"#E87E04"},{value:30, color:"#FFFFFF"},];
 var myChart=new Chart(document.getElementById("java").getContext("2d")).Doughnut(data);
 
 var data=[{value:80, color:"#E87E04"},{value:20, color:"#FFFFFF"},];
-var myChart=new Chart(document.getElementById("linux").getContext("2d")).Doughnut(data);
+var myChart=new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(data);
 
 var data=[{value:95, color:"#E87E04"},{value:5, color:"#FFFFFF"},];
 var myChart=new Chart(document.getElementById("office").getContext("2d")).Doughnut(data);

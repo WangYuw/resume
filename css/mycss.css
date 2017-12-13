@@ -51,7 +51,7 @@ hr {
 	font-weight: 600;
 }
 .mynavbar .nom{
-	width:150px;
+	width:200px;
 }
 .mynavbar .navbar-brand:focus {
 	outline: 0;
@@ -122,6 +122,9 @@ header{
 .myheader h3{
 	font-family: "Raleway";
 	font-size: 20px;
+	color: #fff;
+}
+.myheader h5{
 	color: #fff;
 }
 /* fin header */
