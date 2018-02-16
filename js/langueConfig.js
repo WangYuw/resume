@@ -7,6 +7,8 @@ var langues={
 	"hobbies":["Intérêts","Hobbies","兴趣爱好"],
 	"nom":["WANG Yuwei","WANG Yuwei","王 雨 薇"],
 	"nom2":["WANG Yuwei","WANG Yuwei","王 雨 薇"],
+	"mytitle":["Ingénieur Informatique | yuwei.wang@telecom-sudparis.eu",
+				"Developer | yuwei.wang@telecom-sudparis.eu","开发 | yuwei.wang@telecom-sudparis.eu"],
 	"version":["Version français (changer la version en haut à gauche)","English Version (change the version top-left)","中文版 (左上角可切换语言版本)"],
 
 	"about2":["à propos","about","个人信息"],
@@ -113,5 +115,26 @@ var langues={
 	"lieu2":["Université XIDIAN (Xi'an, Chine)","XIDIAN University (Xi'an, China)","西安电子科技大学 (中国，西安)"],
 
 	"hobbies2":["Intérêts","Hobbies","兴趣爱好"],
+
+	"ex6-head":["Intégration de moteur de recherche dans un système",
+				"Integrate the tool apache lucene in the system called GDE",
+				"JEE & Web 开发"],
+	"ex6-subhead":["Électricité de France(EDF) R&D Paris-Saclay • Palaiseau(France) • Stage de fin d'étude",
+				"EDF Lab Saclay • Palaiseau(France) • long-term Internship",
+				"法国电力集团研究院 信息系统架构和科学计算组 实习生"],
+	"ex6-li1":["Intégrer l’outil <strong>Apache Lucene</strong> et <strong>Apache Tika</strong> dans l’environnement du système \"Gestionnaire des Données d'Etude(GDE)\"",
+				"Integrate the tool <strong>Apache Lucene</strong> in the system called GDE",
+				"在基于java EE的GDE(公司文件管理系统) 项目中集成Apache Lucene和Apache Tika工具"],
+	"ex6-li2":["Définir et mettre en place le système d’indexation automatique",
+				"Define and put in place an automatic indexing system",
+				"实现自动索引机制和搜索引擎模块"],
+	"ex6-li3":["Mettre à position des fonctionnalités permettant de s’interfacer avec ce système",
+				"Realize the system’s functionalities interfaces",
+				"并为系统设计相应的外部接口"],
+	"ex6-li4":["Concevoir et développer le module d’administration <strong>Web</strong>",
+				"Design and develop the web administration module",
+				"设计并开发基于Ajax的GDE后台管理员模块Web端"],
+	"ex6-li5":["Écrire les documents techniques","Write technical documents","编写技术文档"],
+
 
 }
